@@ -1,0 +1,7 @@
+.virtualenv
+**/Gerbers
+**/*bck
+**/*bak
+**/*cache*
+**/*.net**/.DS_Store
+**/._*

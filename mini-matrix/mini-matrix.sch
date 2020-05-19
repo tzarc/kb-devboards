@@ -1,0 +1,868 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW106
+U 1 1 5EBA4023
+P 1950 2200
+F 0 "SW106" H 1950 2485 50  0000 C CNN
+F 1 "SW_Push" H 1950 2394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 1950 2400 50  0001 C CNN
+F 3 "~" H 1950 2400 50  0001 C CNN
+	1    1950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW107
+U 1 1 5EBA4F67
+P 2950 2200
+F 0 "SW107" H 2950 2485 50  0000 C CNN
+F 1 "SW_Push" H 2950 2394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 2950 2400 50  0001 C CNN
+F 3 "~" H 2950 2400 50  0001 C CNN
+	1    2950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW108
+U 1 1 5EBA5A6D
+P 3950 2200
+F 0 "SW108" H 3950 2485 50  0000 C CNN
+F 1 "SW_Push" H 3950 2394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 3950 2400 50  0001 C CNN
+F 3 "~" H 3950 2400 50  0001 C CNN
+	1    3950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW109
+U 1 1 5EBA5A73
+P 4950 2200
+F 0 "SW109" H 4950 2485 50  0000 C CNN
+F 1 "SW_Push" H 4950 2394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 4950 2400 50  0001 C CNN
+F 3 "~" H 4950 2400 50  0001 C CNN
+	1    4950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D106
+U 1 1 5EBA64E2
+P 2150 2300
+F 0 "D106" V 2196 2232 50  0000 R CNN
+F 1 "D_Small" V 2105 2232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 2150 2300 50  0001 C CNN
+F 3 "~" V 2150 2300 50  0001 C CNN
+	1    2150 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D107
+U 1 1 5EBA7463
+P 3150 2300
+F 0 "D107" V 3196 2232 50  0000 R CNN
+F 1 "D_Small" V 3105 2232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 3150 2300 50  0001 C CNN
+F 3 "~" V 3150 2300 50  0001 C CNN
+	1    3150 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D108
+U 1 1 5EBA776A
+P 4150 2300
+F 0 "D108" V 4196 2232 50  0000 R CNN
+F 1 "D_Small" V 4105 2232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 4150 2300 50  0001 C CNN
+F 3 "~" V 4150 2300 50  0001 C CNN
+	1    4150 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D109
+U 1 1 5EBA7AE9
+P 5150 2300
+F 0 "D109" V 5196 2232 50  0000 R CNN
+F 1 "D_Small" V 5105 2232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 5150 2300 50  0001 C CNN
+F 3 "~" V 5150 2300 50  0001 C CNN
+	1    5150 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 2600 1750 2600
+Wire Wire Line
+	4750 2600 4750 2200
+Wire Wire Line
+	3750 2200 3750 2600
+Connection ~ 3750 2600
+Wire Wire Line
+	3750 2600 4750 2600
+Wire Wire Line
+	2750 2200 2750 2600
+Connection ~ 2750 2600
+Wire Wire Line
+	2750 2600 3750 2600
+Wire Wire Line
+	1750 2200 1750 2600
+Connection ~ 1750 2600
+Wire Wire Line
+	1750 2600 2750 2600
+$Comp
+L Switch:SW_Push SW111
+U 1 1 5EBCAE23
+P 1950 3200
+F 0 "SW111" H 1950 3485 50  0000 C CNN
+F 1 "SW_Push" H 1950 3394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 1950 3400 50  0001 C CNN
+F 3 "~" H 1950 3400 50  0001 C CNN
+	1    1950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW112
+U 1 1 5EBCAE29
+P 2950 3200
+F 0 "SW112" H 2950 3485 50  0000 C CNN
+F 1 "SW_Push" H 2950 3394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 2950 3400 50  0001 C CNN
+F 3 "~" H 2950 3400 50  0001 C CNN
+	1    2950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW113
+U 1 1 5EBCAE2F
+P 3950 3200
+F 0 "SW113" H 3950 3485 50  0000 C CNN
+F 1 "SW_Push" H 3950 3394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 3950 3400 50  0001 C CNN
+F 3 "~" H 3950 3400 50  0001 C CNN
+	1    3950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW114
+U 1 1 5EBCAE35
+P 4950 3200
+F 0 "SW114" H 4950 3485 50  0000 C CNN
+F 1 "SW_Push" H 4950 3394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 4950 3400 50  0001 C CNN
+F 3 "~" H 4950 3400 50  0001 C CNN
+	1    4950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D111
+U 1 1 5EBCAE3B
+P 2150 3300
+F 0 "D111" V 2196 3232 50  0000 R CNN
+F 1 "D_Small" V 2105 3232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 2150 3300 50  0001 C CNN
+F 3 "~" V 2150 3300 50  0001 C CNN
+	1    2150 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D112
+U 1 1 5EBCAE41
+P 3150 3300
+F 0 "D112" V 3196 3232 50  0000 R CNN
+F 1 "D_Small" V 3105 3232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 3150 3300 50  0001 C CNN
+F 3 "~" V 3150 3300 50  0001 C CNN
+	1    3150 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D113
+U 1 1 5EBCAE47
+P 4150 3300
+F 0 "D113" V 4196 3232 50  0000 R CNN
+F 1 "D_Small" V 4105 3232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 4150 3300 50  0001 C CNN
+F 3 "~" V 4150 3300 50  0001 C CNN
+	1    4150 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D114
+U 1 1 5EBCAE4D
+P 5150 3300
+F 0 "D114" V 5196 3232 50  0000 R CNN
+F 1 "D_Small" V 5105 3232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 5150 3300 50  0001 C CNN
+F 3 "~" V 5150 3300 50  0001 C CNN
+	1    5150 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 3600 1750 3600
+Wire Wire Line
+	4750 3600 4750 3200
+Wire Wire Line
+	3750 3200 3750 3600
+Connection ~ 3750 3600
+Wire Wire Line
+	3750 3600 4750 3600
+Wire Wire Line
+	2750 3200 2750 3600
+Connection ~ 2750 3600
+Wire Wire Line
+	2750 3600 3750 3600
+Wire Wire Line
+	1750 3200 1750 3600
+Connection ~ 1750 3600
+Wire Wire Line
+	1750 3600 2750 3600
+$Comp
+L Switch:SW_Push SW116
+U 1 1 5EBD5C2A
+P 1950 4200
+F 0 "SW116" H 1950 4485 50  0000 C CNN
+F 1 "SW_Push" H 1950 4394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 1950 4400 50  0001 C CNN
+F 3 "~" H 1950 4400 50  0001 C CNN
+	1    1950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW117
+U 1 1 5EBD5C30
+P 2950 4200
+F 0 "SW117" H 2950 4485 50  0000 C CNN
+F 1 "SW_Push" H 2950 4394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 2950 4400 50  0001 C CNN
+F 3 "~" H 2950 4400 50  0001 C CNN
+	1    2950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW118
+U 1 1 5EBD5C36
+P 3950 4200
+F 0 "SW118" H 3950 4485 50  0000 C CNN
+F 1 "SW_Push" H 3950 4394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 3950 4400 50  0001 C CNN
+F 3 "~" H 3950 4400 50  0001 C CNN
+	1    3950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW119
+U 1 1 5EBD5C3C
+P 4950 4200
+F 0 "SW119" H 4950 4485 50  0000 C CNN
+F 1 "SW_Push" H 4950 4394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 4950 4400 50  0001 C CNN
+F 3 "~" H 4950 4400 50  0001 C CNN
+	1    4950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D116
+U 1 1 5EBD5C42
+P 2150 4300
+F 0 "D116" V 2196 4232 50  0000 R CNN
+F 1 "D_Small" V 2105 4232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 2150 4300 50  0001 C CNN
+F 3 "~" V 2150 4300 50  0001 C CNN
+	1    2150 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D117
+U 1 1 5EBD5C48
+P 3150 4300
+F 0 "D117" V 3196 4232 50  0000 R CNN
+F 1 "D_Small" V 3105 4232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 3150 4300 50  0001 C CNN
+F 3 "~" V 3150 4300 50  0001 C CNN
+	1    3150 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D118
+U 1 1 5EBD5C4E
+P 4150 4300
+F 0 "D118" V 4196 4232 50  0000 R CNN
+F 1 "D_Small" V 4105 4232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 4150 4300 50  0001 C CNN
+F 3 "~" V 4150 4300 50  0001 C CNN
+	1    4150 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D119
+U 1 1 5EBD5C54
+P 5150 4300
+F 0 "D119" V 5196 4232 50  0000 R CNN
+F 1 "D_Small" V 5105 4232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 5150 4300 50  0001 C CNN
+F 3 "~" V 5150 4300 50  0001 C CNN
+	1    5150 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 4600 1750 4600
+Wire Wire Line
+	4750 4600 4750 4200
+Wire Wire Line
+	3750 4200 3750 4600
+Connection ~ 3750 4600
+Wire Wire Line
+	3750 4600 4750 4600
+Wire Wire Line
+	2750 4200 2750 4600
+Connection ~ 2750 4600
+Wire Wire Line
+	2750 4600 3750 4600
+Wire Wire Line
+	1750 4200 1750 4600
+Connection ~ 1750 4600
+Wire Wire Line
+	1750 4600 2750 4600
+$Comp
+L Switch:SW_Push SW121
+U 1 1 5EBD5C65
+P 1950 5200
+F 0 "SW121" H 1950 5485 50  0000 C CNN
+F 1 "SW_Push" H 1950 5394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 1950 5400 50  0001 C CNN
+F 3 "~" H 1950 5400 50  0001 C CNN
+	1    1950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW122
+U 1 1 5EBD5C6B
+P 2950 5200
+F 0 "SW122" H 2950 5485 50  0000 C CNN
+F 1 "SW_Push" H 2950 5394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 2950 5400 50  0001 C CNN
+F 3 "~" H 2950 5400 50  0001 C CNN
+	1    2950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW123
+U 1 1 5EBD5C71
+P 3950 5200
+F 0 "SW123" H 3950 5485 50  0000 C CNN
+F 1 "SW_Push" H 3950 5394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 3950 5400 50  0001 C CNN
+F 3 "~" H 3950 5400 50  0001 C CNN
+	1    3950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW124
+U 1 1 5EBD5C77
+P 4950 5200
+F 0 "SW124" H 4950 5485 50  0000 C CNN
+F 1 "SW_Push" H 4950 5394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 4950 5400 50  0001 C CNN
+F 3 "~" H 4950 5400 50  0001 C CNN
+	1    4950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D121
+U 1 1 5EBD5C7D
+P 2150 5300
+F 0 "D121" V 2196 5232 50  0000 R CNN
+F 1 "D_Small" V 2105 5232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 2150 5300 50  0001 C CNN
+F 3 "~" V 2150 5300 50  0001 C CNN
+	1    2150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D122
+U 1 1 5EBD5C83
+P 3150 5300
+F 0 "D122" V 3196 5232 50  0000 R CNN
+F 1 "D_Small" V 3105 5232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 3150 5300 50  0001 C CNN
+F 3 "~" V 3150 5300 50  0001 C CNN
+	1    3150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D123
+U 1 1 5EBD5C89
+P 4150 5300
+F 0 "D123" V 4196 5232 50  0000 R CNN
+F 1 "D_Small" V 4105 5232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 4150 5300 50  0001 C CNN
+F 3 "~" V 4150 5300 50  0001 C CNN
+	1    4150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D124
+U 1 1 5EBD5C8F
+P 5150 5300
+F 0 "D124" V 5196 5232 50  0000 R CNN
+F 1 "D_Small" V 5105 5232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 5150 5300 50  0001 C CNN
+F 3 "~" V 5150 5300 50  0001 C CNN
+	1    5150 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 5600 1750 5600
+Wire Wire Line
+	4750 5600 4750 5200
+Wire Wire Line
+	3750 5200 3750 5600
+Connection ~ 3750 5600
+Wire Wire Line
+	3750 5600 4750 5600
+Wire Wire Line
+	2750 5200 2750 5600
+Connection ~ 2750 5600
+Wire Wire Line
+	2750 5600 3750 5600
+Wire Wire Line
+	1750 5200 1750 5600
+Connection ~ 1750 5600
+Wire Wire Line
+	1750 5600 2750 5600
+Wire Wire Line
+	2150 2400 2550 2400
+Wire Wire Line
+	2550 2400 2550 3400
+Wire Wire Line
+	3550 2400 3550 3400
+Wire Wire Line
+	3150 2400 3550 2400
+Wire Wire Line
+	4150 2400 4550 2400
+Wire Wire Line
+	4550 2400 4550 3400
+Wire Wire Line
+	5150 2400 5550 2400
+Wire Wire Line
+	5550 2400 5550 3400
+Text GLabel 1150 1600 0    50   Input ~ 0
+row1
+Text GLabel 1150 2600 0    50   Input ~ 0
+row2
+Text GLabel 1150 3600 0    50   Input ~ 0
+row3
+Text GLabel 1150 4600 0    50   Input ~ 0
+row4
+Text GLabel 2550 6150 3    50   Output ~ 0
+col1
+Text GLabel 3550 6150 3    50   Output ~ 0
+col2
+Text GLabel 4550 6150 3    50   Output ~ 0
+col3
+Text GLabel 5550 6150 3    50   Output ~ 0
+col4
+Wire Wire Line
+	2150 3400 2550 3400
+Connection ~ 2550 3400
+Wire Wire Line
+	2550 3400 2550 4400
+Wire Wire Line
+	2150 4400 2550 4400
+Connection ~ 2550 4400
+Wire Wire Line
+	2550 4400 2550 5400
+Wire Wire Line
+	2150 5400 2550 5400
+Connection ~ 2550 5400
+Wire Wire Line
+	2550 5400 2550 6150
+Wire Wire Line
+	3150 5400 3550 5400
+Connection ~ 3550 5400
+Wire Wire Line
+	3550 5400 3550 6150
+Wire Wire Line
+	3150 4400 3550 4400
+Connection ~ 3550 4400
+Wire Wire Line
+	3550 4400 3550 5400
+Wire Wire Line
+	3150 3400 3550 3400
+Connection ~ 3550 3400
+Wire Wire Line
+	3550 3400 3550 4400
+Wire Wire Line
+	4150 3400 4550 3400
+Connection ~ 4550 3400
+Wire Wire Line
+	4550 3400 4550 4400
+Wire Wire Line
+	4150 4400 4550 4400
+Connection ~ 4550 4400
+Wire Wire Line
+	4550 4400 4550 5400
+Wire Wire Line
+	4150 5400 4550 5400
+Connection ~ 4550 5400
+Wire Wire Line
+	4550 5400 4550 6150
+Wire Wire Line
+	5150 5400 5550 5400
+Connection ~ 5550 5400
+Wire Wire Line
+	5550 5400 5550 6150
+Wire Wire Line
+	5150 4400 5550 4400
+Connection ~ 5550 4400
+Wire Wire Line
+	5550 4400 5550 5400
+Wire Wire Line
+	5150 3400 5550 3400
+Connection ~ 5550 3400
+Wire Wire Line
+	5550 3400 5550 4400
+Text GLabel 7900 1300 0    50   Output ~ 0
+row1
+Text GLabel 7900 1400 0    50   Output ~ 0
+row2
+Text GLabel 7900 1500 0    50   Output ~ 0
+row3
+Text GLabel 7900 1600 0    50   Output ~ 0
+row4
+Text GLabel 7900 2050 0    50   Input ~ 0
+col1
+Text GLabel 7900 2150 0    50   Input ~ 0
+col2
+Text GLabel 7900 2250 0    50   Input ~ 0
+col3
+Text GLabel 7900 2350 0    50   Input ~ 0
+col4
+$Comp
+L Switch:SW_Push SW110
+U 1 1 5ECCBCD2
+P 5950 2200
+F 0 "SW110" H 5950 2485 50  0000 C CNN
+F 1 "SW_Push" H 5950 2394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 5950 2400 50  0001 C CNN
+F 3 "~" H 5950 2400 50  0001 C CNN
+	1    5950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D110
+U 1 1 5ECCBCD8
+P 6150 2300
+F 0 "D110" V 6196 2232 50  0000 R CNN
+F 1 "D_Small" V 6105 2232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 6150 2300 50  0001 C CNN
+F 3 "~" V 6150 2300 50  0001 C CNN
+	1    6150 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 2600 5750 2200
+Wire Wire Line
+	4750 2600 5750 2600
+$Comp
+L Switch:SW_Push SW115
+U 1 1 5ECCBCE0
+P 5950 3200
+F 0 "SW115" H 5950 3485 50  0000 C CNN
+F 1 "SW_Push" H 5950 3394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 5950 3400 50  0001 C CNN
+F 3 "~" H 5950 3400 50  0001 C CNN
+	1    5950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D115
+U 1 1 5ECCBCE6
+P 6150 3300
+F 0 "D115" V 6196 3232 50  0000 R CNN
+F 1 "D_Small" V 6105 3232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 6150 3300 50  0001 C CNN
+F 3 "~" V 6150 3300 50  0001 C CNN
+	1    6150 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 3600 5750 3200
+Wire Wire Line
+	4750 3600 5750 3600
+$Comp
+L Switch:SW_Push SW120
+U 1 1 5ECCBCEE
+P 5950 4200
+F 0 "SW120" H 5950 4485 50  0000 C CNN
+F 1 "SW_Push" H 5950 4394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 5950 4400 50  0001 C CNN
+F 3 "~" H 5950 4400 50  0001 C CNN
+	1    5950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D120
+U 1 1 5ECCBCF4
+P 6150 4300
+F 0 "D120" V 6196 4232 50  0000 R CNN
+F 1 "D_Small" V 6105 4232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 6150 4300 50  0001 C CNN
+F 3 "~" V 6150 4300 50  0001 C CNN
+	1    6150 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 4600 5750 4200
+Wire Wire Line
+	4750 4600 5750 4600
+$Comp
+L Switch:SW_Push SW125
+U 1 1 5ECCBCFC
+P 5950 5200
+F 0 "SW125" H 5950 5485 50  0000 C CNN
+F 1 "SW_Push" H 5950 5394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 5950 5400 50  0001 C CNN
+F 3 "~" H 5950 5400 50  0001 C CNN
+	1    5950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D125
+U 1 1 5ECCBD02
+P 6150 5300
+F 0 "D125" V 6196 5232 50  0000 R CNN
+F 1 "D_Small" V 6105 5232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 6150 5300 50  0001 C CNN
+F 3 "~" V 6150 5300 50  0001 C CNN
+	1    6150 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 5600 5750 5200
+Wire Wire Line
+	4750 5600 5750 5600
+Wire Wire Line
+	6150 2400 6550 2400
+Wire Wire Line
+	6550 2400 6550 3400
+Text GLabel 6550 6150 3    50   Output ~ 0
+col5
+Wire Wire Line
+	6150 5400 6550 5400
+Connection ~ 6550 5400
+Wire Wire Line
+	6550 5400 6550 6150
+Wire Wire Line
+	6150 4400 6550 4400
+Connection ~ 6550 4400
+Wire Wire Line
+	6550 4400 6550 5400
+Wire Wire Line
+	6150 3400 6550 3400
+Connection ~ 6550 3400
+Wire Wire Line
+	6550 3400 6550 4400
+$Comp
+L Switch:SW_Push SW101
+U 1 1 5ECE23DB
+P 1950 1200
+F 0 "SW101" H 1950 1485 50  0000 C CNN
+F 1 "SW_Push" H 1950 1394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 1950 1400 50  0001 C CNN
+F 3 "~" H 1950 1400 50  0001 C CNN
+	1    1950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW102
+U 1 1 5ECE23E1
+P 2950 1200
+F 0 "SW102" H 2950 1485 50  0000 C CNN
+F 1 "SW_Push" H 2950 1394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 2950 1400 50  0001 C CNN
+F 3 "~" H 2950 1400 50  0001 C CNN
+	1    2950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW103
+U 1 1 5ECE23E7
+P 3950 1200
+F 0 "SW103" H 3950 1485 50  0000 C CNN
+F 1 "SW_Push" H 3950 1394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 3950 1400 50  0001 C CNN
+F 3 "~" H 3950 1400 50  0001 C CNN
+	1    3950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW104
+U 1 1 5ECE23ED
+P 4950 1200
+F 0 "SW104" H 4950 1485 50  0000 C CNN
+F 1 "SW_Push" H 4950 1394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 4950 1400 50  0001 C CNN
+F 3 "~" H 4950 1400 50  0001 C CNN
+	1    4950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D101
+U 1 1 5ECE23F3
+P 2150 1300
+F 0 "D101" V 2196 1232 50  0000 R CNN
+F 1 "D_Small" V 2105 1232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 2150 1300 50  0001 C CNN
+F 3 "~" V 2150 1300 50  0001 C CNN
+	1    2150 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D102
+U 1 1 5ECE23F9
+P 3150 1300
+F 0 "D102" V 3196 1232 50  0000 R CNN
+F 1 "D_Small" V 3105 1232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 3150 1300 50  0001 C CNN
+F 3 "~" V 3150 1300 50  0001 C CNN
+	1    3150 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D103
+U 1 1 5ECE23FF
+P 4150 1300
+F 0 "D103" V 4196 1232 50  0000 R CNN
+F 1 "D_Small" V 4105 1232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 4150 1300 50  0001 C CNN
+F 3 "~" V 4150 1300 50  0001 C CNN
+	1    4150 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D104
+U 1 1 5ECE2405
+P 5150 1300
+F 0 "D104" V 5196 1232 50  0000 R CNN
+F 1 "D_Small" V 5105 1232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 5150 1300 50  0001 C CNN
+F 3 "~" V 5150 1300 50  0001 C CNN
+	1    5150 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 1600 1750 1600
+Wire Wire Line
+	4750 1600 4750 1200
+Wire Wire Line
+	3750 1200 3750 1600
+Connection ~ 3750 1600
+Wire Wire Line
+	3750 1600 4750 1600
+Wire Wire Line
+	2750 1200 2750 1600
+Connection ~ 2750 1600
+Wire Wire Line
+	2750 1600 3750 1600
+Wire Wire Line
+	1750 1200 1750 1600
+Connection ~ 1750 1600
+Wire Wire Line
+	1750 1600 2750 1600
+Wire Wire Line
+	2150 1400 2550 1400
+Wire Wire Line
+	2550 1400 2550 2400
+Wire Wire Line
+	3550 1400 3550 2400
+Wire Wire Line
+	3150 1400 3550 1400
+Wire Wire Line
+	4150 1400 4550 1400
+Wire Wire Line
+	4550 1400 4550 2400
+Wire Wire Line
+	5150 1400 5550 1400
+Wire Wire Line
+	5550 1400 5550 2400
+$Comp
+L Switch:SW_Push SW105
+U 1 1 5ECE241F
+P 5950 1200
+F 0 "SW105" H 5950 1485 50  0000 C CNN
+F 1 "SW_Push" H 5950 1394 50  0000 C CNN
+F 2 "mini-matrix:PushButton_4.5mm" H 5950 1400 50  0001 C CNN
+F 3 "~" H 5950 1400 50  0001 C CNN
+	1    5950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D105
+U 1 1 5ECE2425
+P 6150 1300
+F 0 "D105" V 6196 1232 50  0000 R CNN
+F 1 "D_Small" V 6105 1232 50  0000 R CNN
+F 2 "mini-matrix:D_SOD-123" V 6150 1300 50  0001 C CNN
+F 3 "~" V 6150 1300 50  0001 C CNN
+	1    6150 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 1600 5750 1200
+Wire Wire Line
+	4750 1600 5750 1600
+Wire Wire Line
+	6150 1400 6550 1400
+Wire Wire Line
+	6550 1400 6550 2400
+Connection ~ 2550 2400
+Connection ~ 3550 2400
+Connection ~ 4550 2400
+Connection ~ 4750 1600
+Connection ~ 4750 2600
+Connection ~ 4750 3600
+Connection ~ 4750 4600
+Connection ~ 4750 5600
+Connection ~ 5550 2400
+Connection ~ 6550 2400
+Text GLabel 1150 5600 0    50   Input ~ 0
+row5
+Text GLabel 7900 2450 0    50   Input ~ 0
+col5
+Text GLabel 7900 1700 0    50   Output ~ 0
+row5
+$Comp
+L Connector_Generic:Conn_01x05 J101
+U 1 1 5ED0EAEF
+P 8100 1500
+F 0 "J101" H 8180 1542 50  0000 L CNN
+F 1 "Conn_01x05" H 8180 1451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8100 1500 50  0001 C CNN
+F 3 "~" H 8100 1500 50  0001 C CNN
+	1    8100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J102
+U 1 1 5ED0F5F0
+P 8100 2250
+F 0 "J102" H 8180 2292 50  0000 L CNN
+F 1 "Conn_01x05" H 8180 2201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8100 2250 50  0001 C CNN
+F 3 "~" H 8100 2250 50  0001 C CNN
+	1    8100 2250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

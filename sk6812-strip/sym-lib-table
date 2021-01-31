@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name reversible-kicad-symbols)(type Legacy)(uri ${KIPRJMOD}/../reversible-kicad/reversible-kicad-symbols.lib)(options "")(descr ""))
+)

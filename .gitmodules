@@ -1,0 +1,3 @@
+[submodule "reversible-kicad"]
+	path = reversible-kicad
+	url = https://github.com/tzarc/reversible-kicad.git

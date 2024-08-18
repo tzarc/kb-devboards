@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name power-input-test)(type Legacy)(uri ${KIPRJMOD}/power-input-test.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "power-input-test")(type "Legacy")(uri "${KIPRJMOD}/power-input-test.lib")(options "")(descr ""))
+  (lib (name "power-input-test-rescue")(type "KiCad")(uri "${KIPRJMOD}/power-input-test-rescue.kicad_sym")(options "")(descr ""))
 )

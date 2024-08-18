@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC
+100n,C1,C_0805_2012Metric,
+100n,C2,C_0805_2012Metric,
+10k,R1,R_0805_2012Metric,
+EC11N,,Encoder_EVQWKL001,
+Conn_01x06,,PinHeader_1x06_P2.54mm_Vertical,
+10k,R2,R_0805_2012Metric,

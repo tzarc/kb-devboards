@@ -2,7 +2,10 @@
 **/Gerbers
 **/*bck
 **/*bak
+**/*_old
 **/*cache*
 **/*.net**/.DS_Store
 **/._*
 **/*.zip
+**/project.db
+**/gerber

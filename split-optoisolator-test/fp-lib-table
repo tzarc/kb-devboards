@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "split-optoisolator-test")(type "KiCad")(uri "${KIPRJMOD}/split-optoisolator-test.pretty")(options "")(descr ""))
+)
